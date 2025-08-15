@@ -11,7 +11,6 @@
                         <strong>Horaire :</strong> {{ cours.horaire }}<br />
                         <strong>Lieu :</strong> {{ cours.lieu }}
                     </p>
-                    <p v-if="cours.instructeur"><strong>Instructeur :</strong> {{ cours.instructeur }}</p>
                 </div>
             </div>
         </div>
