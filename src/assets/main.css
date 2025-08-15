@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+
+
+/* Forcer le footer en bas de page */
+html, body {
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto; /* remplit l'espace restant */
+}
+
+
+:root {
+  --kmvv-primary: #FF2701;   /* tonique */
+  --kmvv-bg: #FFF9F8;        /* fond global */
+  --kmvv-border: #3B0909;    /* mise en relief (bordures) */
+  --kmvv-card-bg: #FDB7AA;   /* fond des cartes/paragraphe */
+}
+
+body {
+  font-family: 'Nova Flat', sans-serif;
+  background-color: var(--kmvv-bg);
+  color: #000;
+}
+
+.btn-primary {
+  background-color: var(--kmvv-primary);
+  border-color: var(--kmvv-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #e02200; /* rouge légèrement plus sombre au hover */
+  border-color: #e02200;
+}
+
+.card,
+.kmvv-card {
+  background-color: var(--kmvv-card-bg);
+  border: 2px solid var(--kmvv-border);
+  border-radius: 0.5rem;
+}
+
+.kmvv-section {
+  border: 3px solid var(--kmvv-border);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+/* Navbar */
+.kmvv-navbar {
+  background-color: var(--kmvv-primary);
+}
+
+.kmvv-navbar .nav-link {
+  color: #fff !important;
+}
+
+.kmvv-navbar .nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-toggler {
+  border-color: #fff;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba%28 255,255,255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/*Card sur mesure */
+.kmvv-card {
+  background-color: var(--kmvv-card-bg);
+  border: 2px solid var(--kmvv-border);
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.kmvv-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.kmvv-card .card-title {
+  color: var(--kmvv-border);
+  font-weight: bold;
+}
+
+.kmvv-card .card-text {
+  font-size: 0.95rem;
+}
+
+
+/* Footer */
+.kmvv-footer {
+  background-color: var(--kmvv-border);
+}
+
+.navbar-brand,
+.btn {
+  font-family: 'Nova Flat', sans-serif;
+}
+
+.btn-light {
+  color: var(--kmvv-border);
+  border-color: var(--kmvv-border);
+}
