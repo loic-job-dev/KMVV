@@ -24,7 +24,6 @@ interface Cours {
     jour: string;
     horaire: string;
     lieu: string;
-    instructeur?: string;
 }
 
 const planning: Cours[] = [
@@ -33,28 +32,24 @@ const planning: Cours[] = [
         jour: "Lundi",
         horaire: "19:00 - 20:30",
         lieu: "Dojo KMVV",
-        instructeur: "Jean Dupont",
     },
     {
         nom: "Krav Maga Intermédiaire",
         jour: "Mercredi",
         horaire: "19:00 - 20:30",
         lieu: "Dojo KMVV",
-        instructeur: "Marie Durant",
     },
     {
         nom: "Krav Maga Avancé",
         jour: "Vendredi",
         horaire: "20:00 - 21:30",
         lieu: "Dojo KMVV",
-        instructeur: "Luc Martin",
     },
     {
         nom: "Self-défense féminine",
         jour: "Samedi",
         horaire: "10:00 - 11:30",
         lieu: "Dojo KMVV",
-        instructeur: "Sophie Leroy",
     },
 ];
 </script>
