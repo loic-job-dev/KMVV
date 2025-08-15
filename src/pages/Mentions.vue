@@ -15,11 +15,15 @@
         <p>
             Ce site est hébergé par :
             <br />
-            [Nom de l'hébergeur]
+            Netlify
+        </p>
+
+        <h2>Conception</h2>
+        <p>
+            Ce site a été conçu par :
             <br />
-            [Adresse]
-            <br />
-            Téléphone : [téléphone]
+
+            <a href="https://github.com/loic-job-dev">loic-job-dev</a>
         </p>
 
         <h2>Propriété intellectuelle</h2>
