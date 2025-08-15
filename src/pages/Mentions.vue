@@ -23,7 +23,7 @@
             Ce site a été conçu par :
             <br />
 
-            <a href="https://github.com/loic-job-dev">loic-job-dev</a>
+            <a href="https://github.com/loic-job-dev" target="_blank">loic-job-dev</a>
         </p>
 
         <h2>Propriété intellectuelle</h2>
