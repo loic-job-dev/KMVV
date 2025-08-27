@@ -4,9 +4,9 @@
 
         <p><strong>Nom de l'association :</strong> KMVV</p>
         <p><strong>Forme juridique :</strong> Association loi 1901</p>
-        <p><strong>Siège social :</strong> [Adresse complète]</p>
-        <p><strong>Email :</strong> contact@kmvv.fr</p>
-        <p><strong>Numéro SIRET :</strong> [SIRET si déjà enregistré]</p>
+        <p><strong>Siège social :</strong> 23 bis route de Montaud 38113 Veurey-Voroize</p>
+        <p><strong>Email :</strong> kmvv38113@gmail.com</p>
+        <p><strong>Numéro SIRET :</strong> W381030053</p>
 
         <h2>Directeur de la publication</h2>
         <p>Le directeur de la publication est le président de l’association KMVV.</p>

@@ -29,26 +29,14 @@ const planning: Cours[] = [
     {
         nom: "Krav Maga Débutants",
         jour: "Lundi",
-        horaire: "19:00 - 20:30",
-        lieu: "Dojo KMVV",
+        horaire: "20:30 - 21:30",
+        lieu: "Dojo Veurey-Voroize",
     },
     {
-        nom: "Krav Maga Intermédiaire",
+        nom: "Krav Maga Intermédiaires/confirmés",
         jour: "Mercredi",
-        horaire: "19:00 - 20:30",
-        lieu: "Dojo KMVV",
-    },
-    {
-        nom: "Krav Maga Avancé",
-        jour: "Vendredi",
-        horaire: "20:00 - 21:30",
-        lieu: "Dojo KMVV",
-    },
-    {
-        nom: "Self-défense féminine",
-        jour: "Samedi",
-        horaire: "10:00 - 11:30",
-        lieu: "Dojo KMVV",
+        horaire: "20:15 - 21:45",
+        lieu: "Dojo Veurey-Voroize",
     },
 ];
 </script>

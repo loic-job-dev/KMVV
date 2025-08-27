@@ -35,7 +35,7 @@
             Conformément à la loi "Informatique et Libertés" et au RGPD, vous disposez
             d’un droit d’accès, de rectification et de suppression de vos données
             personnelles. Vous pouvez exercer ces droits en nous contactant à :
-            <a href="mailto:contact@kmvv.fr">contact@kmvv.fr</a>.
+            <a href="mailto:kmvv38113@gmail.com">kmvv38113@gmail.com</a>.
         </p>
 
         <h2>5. Cookies</h2>
@@ -45,7 +45,7 @@
             pour refuser les cookies.
         </p>
 
-        <p>Date de dernière mise à jour : 15 août 2025</p>
+        <p>Date de dernière mise à jour : 27 août 2025</p>
     </section>
 </template>
 
