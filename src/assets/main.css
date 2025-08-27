@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
 
-
 /* Forcer le footer en bas de page */
 html, body {
   height: 100%;
@@ -16,12 +15,11 @@ main {
   flex: 1 0 auto; /* remplit l'espace restant */
 }
 
-
 :root {
-  --kmvv-primary: #FF2701;   /* tonique */
-  --kmvv-bg: #FFF9F8;        /* fond global */
-  --kmvv-border: #3B0909;    /* mise en relief (bordures) */
-  --kmvv-card-bg: #FDB7AA;   /* fond des cartes/paragraphe */
+  --kmvv-primary: #1E90FF;   /* tonique → bleu vif (DodgerBlue) */
+  --kmvv-bg: #F5FAFF;        /* fond global → bleu très clair */
+  --kmvv-border: #0A2E5C;    /* mise en relief (bordures) → bleu marine foncé */
+  --kmvv-card-bg: #B3D9FF;   /* fond des cartes/paragraphe → bleu pastel */
 }
 
 body {
@@ -37,8 +35,8 @@ body {
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #e02200; /* rouge légèrement plus sombre au hover */
-  border-color: #e02200;
+  background-color: #187bcd; /* bleu légèrement plus sombre */
+  border-color: #187bcd;
 }
 
 .card,
@@ -97,10 +95,10 @@ body {
   font-size: 0.95rem;
 }
 
-
 /* Footer */
 .kmvv-footer {
   background-color: var(--kmvv-border);
+  color: #fff;
 }
 
 .navbar-brand,
