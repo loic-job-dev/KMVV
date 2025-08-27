@@ -29,7 +29,7 @@ const planning: Cours[] = [
     {
         nom: "Krav Maga Débutants",
         jour: "Lundi",
-        horaire: "20:30 - 21:30",
+        horaire: "20:45 - 21:45",
         lieu: "Dojo Veurey-Voroize",
     },
     {
