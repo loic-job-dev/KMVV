@@ -8,14 +8,28 @@
                     Télécharger le PDF
                 </a>
             </p>
+            <h2>Pour les mineurs :</h2>
             <p>
-                L'attestation QS sport pour les mineurs ici :
-                <a href="/PDF/attestation_QS_sport_mineur.pdf" target="_blank" class="btn btn-primary">
+                Le questionnaire QS sport ici :
+                <a href="/PDF/questionnaire_medical_mineur.pdf" target="_blank" class="btn btn-primary">
                     Télécharger le PDF
                 </a>
             </p>
             <p>
-                L'attestation QS sport pour les majeurs ici :
+                L'attestation QS sport ici :
+                <a href="/PDF/attestation_QS_sport_mineur.pdf" target="_blank" class="btn btn-primary">
+                    Télécharger le PDF
+                </a>
+            </p>
+            <h2>Pour les majeurs :</h2>
+            <p>
+                Le questionnaire QS sport ici :
+                <a href="/PDF/questionnaire_medical_majeur.pdf" target="_blank" class="btn btn-primary">
+                    Télécharger le PDF
+                </a>
+            </p>
+            <p>
+                L'attestation QS sport ici :
                 <a href="/PDF/attestation_QS_sport_majeurs.pdf" target="_blank" class="btn btn-primary">
                     Télécharger le PDF
                 </a>
