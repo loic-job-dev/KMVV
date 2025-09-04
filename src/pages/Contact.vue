@@ -4,7 +4,7 @@
             <h1>Contact & Inscription</h1>
             <p>
                 Vous pouvez télécharger notre fiche d’inscription ici :
-                <a href="/PDF/bulletin_adhesion.pdf" target="_blank" class="btn btn-primary">
+                <a href="/PDF/KMVV_Bulletin.pdf" target="_blank" class="btn btn-primary">
                     Télécharger le PDF
                 </a>
             </p>
