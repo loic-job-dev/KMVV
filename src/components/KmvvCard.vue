@@ -1,11 +1,12 @@
 <template>
     <div class="card kmvv-card h-100 shadow-sm">
-        <img v-if="image" :src="image" class="card-img-top" :alt="title" />
+
         <div class="card-body">
             <h5 class="card-title">{{ title }}</h5>
             <small v-if="date" class="kmvv-card-date d-block mb-2">
                 {{ formattedDate }}
             </small>
+            <img v-if="image" :src="image" class="card-img-top" :alt="title" />
             <p class="card-text">{{ text }}</p>
         </div>
         <div class="card-footer bg-transparent border-0">

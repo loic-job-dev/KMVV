@@ -27,12 +27,12 @@ Accessible à toutes et à tous, le Krav Maga se pratique dans une ambiance bien
 
 Venez découvrir une discipline qui vous apportera autant sur le plan physique que mental.`,
     },
-    // {
-    //     title: "Reprise des cours saison 2025-2026",
-    //     date: "2025-09-01",
-    //     text: "Les cours reprennent dès le 1er septembre. Venez nombreux !",
-    //     image: "/images/stage.jpg",
-    // },
+    //{
+    //    title: "Test",
+    //    date: "2025-09-08",
+    //    text: "Les cours reprennent dès le 1er septembre. Venez nombreux !",
+    //    image: "/Pictures/Capture d’écran du 2025-07-17 15-32-13.png",
+    //},
     // {
     //     title: "Assemblée Générale de l’association",
     //     date: "2025-07-10",
