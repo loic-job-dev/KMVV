@@ -1,5 +1,5 @@
 <template>
-    <section class="container py-5 kmvv-section">
+    <section class="container py-5 mt-4 kmvv-section">
         <h1>Politique de confidentialité</h1>
 
         <p>

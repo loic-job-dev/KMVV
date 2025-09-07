@@ -42,7 +42,7 @@ body {
 .card,
 .kmvv-card {
   background-color: var(--kmvv-card-bg);
-  border: 2px solid var(--kmvv-border);
+  border: 1px solid var(--kmvv-border);
   border-radius: 0.5rem;
 }
 

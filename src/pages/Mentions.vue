@@ -1,5 +1,5 @@
 <template>
-    <section class="container py-5 kmvv-section">
+    <section class="container py-5 mt-4 kmvv-section">
         <h1>Mentions légales</h1>
 
         <p><strong>Nom de l'association :</strong> KMVV</p>
