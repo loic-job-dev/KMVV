@@ -29,19 +29,19 @@ const tarifs: Tarifs[] = [
     {
         nom: "Ados",
         annuel: "190 euros pour l'année",
-        assurance: "+ 37 euros d'assurance FFK",
+        assurance: "+ 39 euros d'assurance FFK",
         récurrence: "1 cours par semaine",
     },
     {
         nom: "Adultes débutants",
         annuel: "210 euros pour l'année",
-        assurance: "+ 37 euros d'assurance FFK",
+        assurance: "+ 39 euros d'assurance FFK",
         récurrence: "1 cours par semaine",
     },
     {
         nom: "Adultes confirmés",
         annuel: "270 euros pour l'année",
-        assurance: "+ 37 euros d'assurance FFK",
+        assurance: "+ 39 euros d'assurance FFK",
         récurrence: "2 cours par semaine",
     },
 ];
