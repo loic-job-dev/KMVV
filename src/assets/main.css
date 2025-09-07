@@ -1,10 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&family=Yantramanav:wght@400&display=swap');
 
-/* Forcer le footer en bas de page */
+/* ------------------------------
+   Polices et base du site
+--------------------------------*/
 html, body {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  font-family: 'Yantramanav', sans-serif; /* texte principal */
+  font-size: 1.05rem; /* légèrement plus grand */
+  background-color: var(--kmvv-bg);
+  color: #fff;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6,
+.display-5,
+.fw-bold {
+  font-family: 'Nova Flat', cursive; /* titres */
+  line-height: 1.3;
+}
+
+/* Navbar et Footer */
+.navbar-brand,
+.btn,
+.kmvv-footer {
+  font-family: 'Nova Flat', cursive;
+}
+
+/* ------------------------------
+   Layout
+--------------------------------*/
 #app {
   display: flex;
   flex-direction: column;
@@ -15,98 +44,142 @@ main {
   flex: 1 0 auto; /* remplit l'espace restant */
 }
 
+/* ------------------------------
+   Variables couleurs
+--------------------------------*/
 :root {
-  --kmvv-primary: #1E90FF;   /* tonique → bleu vif (DodgerBlue) */
-  --kmvv-bg: #F5FAFF;        /* fond global → bleu très clair */
-  --kmvv-border: #0A2E5C;    /* mise en relief (bordures) → bleu marine foncé */
-  --kmvv-card-bg: #B3D9FF;   /* fond des cartes/paragraphe → bleu pastel */
+  --kmvv-primary: #1E90FF;   /* tonique → bleu vif */
+  --kmvv-bg: #020625;        /* fond global → bleu très foncé presque noir */
+  --kmvv-border: #0A2E5C;    /* bordures → bleu marine foncé */
+  --kmvv-card-bg: #1A2B4C;   /* cartes → bleu foncé pour contraste */
 }
 
-body {
-  font-family: 'Nova Flat', sans-serif;
-  background-color: var(--kmvv-bg);
-  color: #000;
-}
-
+/* ------------------------------
+   Boutons
+--------------------------------*/
 .btn-primary {
   background-color: var(--kmvv-primary);
   border-color: var(--kmvv-primary);
+  font-size: 1rem;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #187bcd; /* bleu légèrement plus sombre */
+  background-color: #187bcd;
   border-color: #187bcd;
 }
 
+.btn-light {
+  color: var(--kmvv-border);
+  border-color: var(--kmvv-border);
+  font-size: 1rem;
+}
+
+/* ------------------------------
+   Cartes
+--------------------------------*/
 .card,
 .kmvv-card {
   background-color: var(--kmvv-card-bg);
   border: 1px solid var(--kmvv-border);
   border-radius: 0.5rem;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 1rem;
 }
 
+.kmvv-card {
+  border: 2px solid var(--kmvv-border);
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.kmvv-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.kmvv-card .card-title {
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Nova Flat', cursive;
+  font-size: 1.2rem;
+}
+
+.kmvv-card .card-text {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 1rem;
+  color: #e0e0ff;
+  white-space: pre-line; /* conserve retours à la ligne */
+  line-height: 1.6;
+}
+
+/* ------------------------------
+   Sections et bordures
+--------------------------------*/
 .kmvv-section {
   border: 3px solid var(--kmvv-border);
   padding: 1.5rem;
   border-radius: 0.5rem;
 }
 
-/* Navbar */
+/* ------------------------------
+   Navbar
+--------------------------------*/
 .kmvv-navbar {
   background-color: var(--kmvv-primary);
 }
 
 .kmvv-navbar .nav-link {
   color: #fff !important;
+  font-size: 1rem;
 }
 
 .kmvv-navbar .nav-link:hover {
+  color: #e0f0ff;
   text-decoration: underline;
 }
 
 .navbar-toggler {
   border-color: #fff;
 }
+
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba%28 255,255,255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-/*Card sur mesure */
-.kmvv-card {
-  background-color: var(--kmvv-card-bg);
-  border: 2px solid var(--kmvv-border);
-  border-radius: 0.75rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-.kmvv-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.kmvv-card .card-title {
-  color: var(--kmvv-border);
-  font-weight: bold;
-}
-
-.kmvv-card .card-text {
-  font-size: 0.95rem;
-}
-
-/* Footer */
+/* ------------------------------
+   Footer
+--------------------------------*/
 .kmvv-footer {
   background-color: var(--kmvv-border);
   color: #fff;
+  font-family: 'Nova Flat', cursive;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem 0;
 }
 
-.navbar-brand,
-.btn {
-  font-family: 'Nova Flat', sans-serif;
+/* ------------------------------
+   Responsive cartes Home
+--------------------------------*/
+@media (max-width: 768px) {
+  .kmvv-card {
+    font-size: 0.95rem;
+  }
+  .kmvv-card .card-title {
+    font-size: 1.1rem;
+  }
 }
 
-.btn-light {
-  color: var(--kmvv-border);
-  border-color: var(--kmvv-border);
+/* ------------------------------
+   Hero section
+--------------------------------*/
+section.text-center h1,
+section.text-center p.lead {
+  font-size: 1.8rem;
+}
+
+section.text-center p.lead {
+  margin-top: 0.5rem;
 }
