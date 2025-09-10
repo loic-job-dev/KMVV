@@ -52,6 +52,7 @@ const sortedArticles = computed(() =>
     <section class="text-center py-5">
         <div class="container">
             <h1 class="display-5 fw-bold">Krav Maga Veurey-Voroize</h1>
+            <img src="/Icons/icon.jpg" alt="Krav Maga Veurey-Voroize" style="max-height: 120px;">
             <p class="lead">Self-défense réaliste pour tous · Saison 2025–2026</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-3">
                 <RouterLink to="/contact" class="btn btn-primary btn-lg px-4">S'inscrire</RouterLink>
