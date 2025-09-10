@@ -27,10 +27,10 @@ interface Tarifs {
 
 const tarifs: Tarifs[] = [
     {
-        nom: "Ados",
+        nom: "Enfants / Ados",
         annuel: "190 euros pour l'année",
         assurance: "+ 39 euros d'assurance FFK",
-        récurrence: "1 cours par semaine",
+        récurrence: "1 cours par semaine\n2 cours d'essai gratuits !",
     },
     {
         nom: "Adultes débutants",

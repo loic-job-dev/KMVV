@@ -27,6 +27,12 @@ interface Cours {
 
 const planning: Cours[] = [
     {
+        nom: "Krav Maga Enfants / Ados",
+        jour: "Vendredi",
+        horaire: "18:15 - 19:15",
+        lieu: "Gymnase de Noyarey",
+    },
+    {
         nom: "Krav Maga Débutants",
         jour: "Lundi",
         horaire: "20:45 - 21:45",
