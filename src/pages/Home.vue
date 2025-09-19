@@ -27,6 +27,17 @@ Accessible à toutes et à tous, le Krav Maga se pratique dans une ambiance bien
 
 Venez découvrir une discipline qui vous apportera autant sur le plan physique que mental.`,
     },
+    {
+        title: "🔥 Événement spécial : Journée découverte gratuite",
+        date: "2025-09-19",
+        text: `Samedi 29 novembre 2025 de 9h30 à 12h00 Venez découvrir le Krav Maga gratuitement et laissez-vous guider par Julien, notre instructeur passionné et bienveillant. 
+        Il saura vous mettre en confiance et révéler le meilleur de vous-même !
+        
+        📩 Contact : kmvv38113@gmail.com 
+        
+        💌 Réservez votre place dès maintenant ! Envoyez-nous simplement un mail avec votre nom et prénom à l’adresse ci-dessus 
+        et rejoignez-nous pour cette journée exceptionnelle. Les places sont limitées, ne tardez pas !`,
+    },
     //{
     //    title: "Test",
     //    date: "2025-09-08",
