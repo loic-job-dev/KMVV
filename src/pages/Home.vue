@@ -38,6 +38,30 @@ Venez découvrir une discipline qui vous apportera autant sur le plan physique q
         💌 Réservez votre place dès maintenant ! Envoyez-nous simplement un mail avec votre nom et prénom à l’adresse ci-dessus 
         et rejoignez-nous pour cette journée exceptionnelle. Les places sont limitées, ne tardez pas !`,
     },
+    {
+        title: "🥋 KMVV38 – Le Krav Maga à Veurey-Voroize : Défendez-vous, renforcez-vous, dépassez-vous !",
+        date: "2025-10-21",
+        text: `Bienvenue chez KMVV38, votre club de Krav Maga à Veurey-Voroize, entre Grenoble et le Voironnais.
+        Ici, pas de compétition, pas de chichi : juste une méthode de self-défense réaliste, accessible et terriblement efficace, basée sur des réflexes simples et naturels.
+
+        Que vous soyez débutant, confirmé, femme, homme ou adolescent, nos cours vous permettent de :
+
+        💥 Apprendre à vous défendre efficacement face à des situations réelles
+
+        💪 Renforcer votre corps et votre mental dans une ambiance dynamique et conviviale
+
+        ⚡ Développer vos réflexes, votre confiance et votre sang-froid
+
+        🤝 Rejoindre une communauté bienveillante et passionnée, encadrée par des instructeurs certifiés
+
+
+        Au KMVV38, nous croyons que la self-défense est un droit pour tous.
+        Nos entraînements combinent technique, condition physique et gestion du stress, pour vous aider à prendre confiance et réagir efficacement dans la vie de tous les jours.
+
+        🔥 Rejoignez-nous à Veurey-Voroize pour un cours d’essai gratuit et découvrez pourquoi le Krav Maga séduit chaque année des milliers de pratiquants en quête de sécurité, de confiance et d’énergie !`,
+        image: "/Pictures/picture_001.jpg",
+    },
+
     //{
     //    title: "Test",
     //    date: "2025-09-08",

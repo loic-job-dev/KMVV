@@ -45,7 +45,7 @@
             pour refuser les cookies.
         </p>
 
-        <p>Date de dernière mise à jour : 19 septembre 2025</p>
+        <p>Date de dernière mise à jour : 21 octobre 2025</p>
     </section>
 </template>
 
