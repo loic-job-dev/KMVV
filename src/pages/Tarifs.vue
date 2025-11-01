@@ -2,6 +2,11 @@
     <section class="container py-5">
         <h1 class="mb-4">Tarifs</h1>
 
+        <p class="kmvv-info text-center mt-4 mb-5">
+            Nous acceptons les <strong>Pass'Sport</strong>,
+            <strong>Pass'Région Jeunes</strong> et <strong>Tattoo Isère</strong>.
+        </p>
+
         <div class="row g-4">
             <div class="col-12 col-md-6 col-lg-4" v-for="(tarifs, index) in tarifs" :key="index">
                 <div class="kmvv-card p-3 h-100">

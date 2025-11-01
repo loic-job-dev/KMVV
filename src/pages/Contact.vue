@@ -1,7 +1,7 @@
 <template>
     <section class="py-5">
         <div class="container">
-            <h1>Contact & Inscription</h1>
+            <h1>Inscription</h1>
             <p>
                 Vous pouvez télécharger notre fiche d’inscription ici :
                 <a href="/PDF/KMVV_Bulletin.pdf" target="_blank" class="btn btn-primary">
