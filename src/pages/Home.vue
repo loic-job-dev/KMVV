@@ -61,7 +61,20 @@ Venez découvrir une discipline qui vous apportera autant sur le plan physique q
         🔥 Rejoignez-nous à Veurey-Voroize pour un cours d’essai gratuit et découvrez pourquoi le Krav Maga séduit chaque année des milliers de pratiquants en quête de sécurité, de confiance et d’énergie !`,
         image: "/Pictures/picture_001.jpg",
     },
+    {
+        title: "Une très belle matinée du 29 novembre",
+        date: "2025-11-29",
+        text: `Une dizaine de personnes ont franchi le pas et ont pu profiter de cette matinée d'initiation gratuite.
 
+        C'est dans une ambiance chaleureuse et studieuse que nos invités ont été guidés et supervisés par Julien B notre coach.
+
+        Le club KMVV tient à vous remercier pour votre engagement et votre bonne humeur, et espère vous revoir pour un prochain événement !
+
+        Nous tenons également à remercier la mairie de Veurey-Voroize pour le prêt de ses infrastructures.
+
+        Et à très vite !!!`,
+        image: "/Pictures/portes_ouvertes_nov_25 .jpeg",
+    },
     //{
     //    title: "Test",
     //    date: "2025-09-08",
