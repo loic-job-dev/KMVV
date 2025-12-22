@@ -6,7 +6,7 @@ interface Article {
     title: string;
     date: string;
     text: string;
-    image?: string;
+    images?: string[];
 }
 
 const articles: Article[] = [
@@ -59,7 +59,9 @@ Venez découvrir une discipline qui vous apportera autant sur le plan physique q
         Nos entraînements combinent technique, condition physique et gestion du stress, pour vous aider à prendre confiance et réagir efficacement dans la vie de tous les jours.
 
         🔥 Rejoignez-nous à Veurey-Voroize pour un cours d’essai gratuit et découvrez pourquoi le Krav Maga séduit chaque année des milliers de pratiquants en quête de sécurité, de confiance et d’énergie !`,
-        image: "/Pictures/picture_001.jpg",
+        images: [
+            "/Pictures/picture_001.jpg",
+        ]
     },
     {
         title: "Une très belle matinée du 29 novembre",
@@ -73,8 +75,27 @@ Venez découvrir une discipline qui vous apportera autant sur le plan physique q
         Nous tenons également à remercier la mairie de Veurey-Voroize pour le prêt de ses infrastructures.
 
         Et à très vite !!!`,
-        image: "/Pictures/portes_ouvertes_nov_25 .jpeg",
+        images: [
+            "/Pictures/portes_ouvertes_nov_25 .jpeg",
+        ]
     },
+    {
+        title: "Verre de fin d'année chez KMVV",
+        date: "2025-12-22",
+        text: `Les membres de KMVV ont pu célébrer la fin d'année autour d'un verre et de spécialités apportées par chacun, dans une ambiance chaleureuse et conviviale.
+        
+        Un concours du pull de Noël le plus moche avait été organisé, et remporté haut la main par Thomas, qui s'est vu offrir une boule de Noël à l'effigie du logo du club, une décoration collector !
+        
+        Un merci particulier à la mairie de Noyarey pour le prêt de la salle.
+        
+        Le bureau de KMVV ainsi que son webmaster souhaitent à tous les membres et personnes qui nous soutiennent de très belles fêtes de fin d'année !`,
+        images: [
+            "/Pictures/caroussel_01/1000028890.jpg",
+            "/Pictures/caroussel_01/1000028891.jpg",
+            "/Pictures/caroussel_01/1000028892.jpg",
+            "/Pictures/caroussel_01/1000028896.jpg",
+        ]
+    }
     //{
     //    title: "Test",
     //    date: "2025-09-08",
@@ -115,7 +136,7 @@ const sortedArticles = computed(() =>
             <h2 class="mb-5 text-center">Actualités</h2>
             <div class="row justify-content-center g-4">
                 <div class="col-12 col-md-10 col-lg-8" v-for="(article, index) in sortedArticles" :key="index">
-                    <KmvvCard :title="article.title" :text="article.text" :image="article.image" :date="article.date">
+                    <KmvvCard :title="article.title" :text="article.text" :images="article.images" :date="article.date">
                     </KmvvCard>
                 </div>
             </div>
