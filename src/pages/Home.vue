@@ -95,6 +95,14 @@ Venez découvrir une discipline qui vous apportera autant sur le plan physique q
             "/Pictures/caroussel_01/1000028892.jpg",
             "/Pictures/caroussel_01/1000028896.jpg",
         ]
+    },
+    {
+        title: "Chez KMVV, la galette c'est la fête !",
+        date: "2026-01-22",
+        text: `Afin de démarrer l'année en beauté, le club KMVV a partagé une galette des rois dans l'ambiance conviviale qui la caratérise.`,
+        images: [
+            "/Pictures/kmvv_galette.jpg",
+        ]
     }
     //{
     //    title: "Test",
