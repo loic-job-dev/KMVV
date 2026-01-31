@@ -103,6 +103,18 @@ Venez découvrir une discipline qui vous apportera autant sur le plan physique q
         images: [
             "/Pictures/kmvv_galette.jpg",
         ]
+    },
+    {
+        title: "Stage self defense - se défendre avec les objets du quotidien",
+        date: "2026-01-31",
+        text: `Le club KMVV vous propose un stage ayant pour thème la défense avec les objets du quotidien, le samedi 18 avril 2026 de 9h à 12h.
+        
+        Nous vous retrouverons à la salle des fêtes de Veurey-Voroize, dans la bonne humeur et la convivialité qui nous caractérise.
+        
+        Pour tout renseignement complémentaire, n'hésitez pas à nous contacter par mail.`,
+        images: [
+            "/Pictures/kmvv_affiche_stage_01.jpg",
+        ]
     }
     //{
     //    title: "Test",
