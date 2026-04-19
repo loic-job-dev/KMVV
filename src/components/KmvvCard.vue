@@ -1,10 +1,16 @@
 <template>
     <div class="card kmvv-card h-100 shadow-sm">
 
-        <!-- Zone image(s) -->
-        <div v-if="hasImages" class="kmvv-card-media">
+        <div v-if="hasMedia" class="kmvv-card-media">
             <transition name="fade" mode="out-in">
-                <img :key="currentImage" :src="currentImage" class="kmvv-card-img" :alt="title" />
+
+                <!-- VIDEO prioritaire -->
+                <video v-if="video" :key="video" class="kmvv-card-img" :src="video" autoplay muted loop
+                    playsinline></video>
+
+                <!-- IMAGE(S) -->
+                <img v-else :key="currentImage" :src="currentImage" class="kmvv-card-img" :alt="title" />
+
             </transition>
         </div>
 
@@ -34,6 +40,7 @@ const props = defineProps({
     image: { type: String, default: "" },       // rétro-compatibilité
     images: { type: Array as () => string[], default: () => [] },
     date: { type: String, default: "" },
+    video: { type: String, default: "" },
 });
 
 const allImages = computed(() => {
@@ -42,7 +49,9 @@ const allImages = computed(() => {
     return [];
 });
 
-const hasImages = computed(() => allImages.value.length > 0);
+const hasMedia = computed(() => {
+    return props.video || allImages.value.length > 0;
+});
 
 const currentIndex = ref(0);
 let interval: number | null = null;
@@ -129,6 +138,13 @@ const formattedDate = computed(() => {
     color: var(--kmvv-primary);
     font-weight: bold;
     font-size: 1rem;
+}
+
+/* Video */
+video.kmvv-card-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 /* Responsive */

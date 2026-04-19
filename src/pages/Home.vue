@@ -7,6 +7,7 @@ interface Article {
     date: string;
     text: string;
     images?: string[];
+    video?: string;
 }
 
 const articles: Article[] = [
@@ -115,6 +116,22 @@ Venez découvrir une discipline qui vous apportera autant sur le plan physique q
         images: [
             "/Pictures/kmvv_affiche_stage_01.jpg",
         ]
+    },
+    {
+        title: "Retour en images sur la journée du 18 avril 2026",
+        date: "2026-04-19",
+        text: `Vous avez été nombreux à répondre présents pour passer un moment sportif avec la clib KMVV ce samedi 19 avril 2026.
+        Confirmés comme nouveaux venus, l'importance du sujet abordé n'a pas empeché un entrainement bienveillant et dans la bonne humeur qui nous caractérise.
+        
+        Rendez-vous au prochain événement !`,
+        video: "/Videos/journee_18_04_26.mov"
+    },
+    {
+        title: "La KMVV Familly !",
+        date: "2026-04-19",
+        text: `Au fil des entrainements, on finit par échanger bien plus que des coups (avec retenue évidemment).
+        Des liens de fraternité et d'amitié se tissent, et ainsi on rejoint la KMVV Familly !`,
+        video: "/Videos/kmvv_familly.mov"
     }
     //{
     //    title: "Test",
@@ -156,7 +173,8 @@ const sortedArticles = computed(() =>
             <h2 class="mb-5 text-center">Actualités</h2>
             <div class="row justify-content-center g-4">
                 <div class="col-12 col-md-10 col-lg-8" v-for="(article, index) in sortedArticles" :key="index">
-                    <KmvvCard :title="article.title" :text="article.text" :images="article.images" :date="article.date">
+                    <KmvvCard :title="article.title" :text="article.text" :images="article.images"
+                        :video="article.video" :date="article.date">
                     </KmvvCard>
                 </div>
             </div>
