@@ -120,7 +120,7 @@ Venez découvrir une discipline qui vous apportera autant sur le plan physique q
     {
         title: "Retour en images sur la journée du 18 avril 2026",
         date: "2026-04-19",
-        text: `Vous avez été nombreux à répondre présents pour passer un moment sportif avec la clib KMVV ce samedi 19 avril 2026.
+        text: `Vous avez été nombreux à répondre présents pour passer un moment sportif avec le club KMVV ce samedi 19 avril 2026.
         Confirmés comme nouveaux venus, l'importance du sujet abordé n'a pas empeché un entrainement bienveillant et dans la bonne humeur qui nous caractérise.
         
         Rendez-vous au prochain événement !`,
