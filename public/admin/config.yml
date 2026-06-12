@@ -2,10 +2,23 @@ backend:
   name: git-gateway
   branch: main
 
+media_folder: "public/Pictures"
+public_folder: "/Pictures"
+
+media_library:
+  name: uploadcare
+
 collections:
-  - name: test
-    label: test
-    folder: src/content/articles
+  - name: articles
+    label: Articles
+    folder: "src/content/articles"
     create: true
+    extension: json
+    format: json
+    slug: "{{slug}}"
     fields:
-      - { name: title, widget: string }
+      - { name: title, label: Titre, widget: string }
+      - { name: date, label: Date, widget: datetime }
+      - { name: text, label: Texte, widget: text }
+      - { name: images, label: Images, widget: list, required: false, field: { name: image, widget: image } }
+      - { name: video, label: Vidéo, widget: string, required: false }
