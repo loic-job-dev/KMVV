@@ -74,5 +74,27 @@
       }
     }
   </script>
+
+  <script>
+  if (window.netlifyIdentity) {
+    console.log("Identity chargé");
+
+    window.netlifyIdentity.init();
+
+    const hash = window.location.hash;
+
+    console.log("Hash:", hash);
+
+    if (
+      hash.includes("invite_token") ||
+      hash.includes("recovery_token")
+    ) {
+      console.log("Token détecté");
+      window.netlifyIdentity.open();
+    }
+  } else {
+    console.log("Identity non chargé");
+  }
+</script>
 </body>
 </html>
