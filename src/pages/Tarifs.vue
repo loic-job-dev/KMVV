@@ -7,7 +7,11 @@
             <strong>Pass'Région Jeunes</strong> et <strong>Tattoo Isère</strong>.
         </p>
 
-        <div class="row g-4">
+        <p class="kmvv-info text-center mt-4 mb-5">
+            Informations à venir.
+        </p>
+
+        <!-- <div class="row g-4">
             <div class="col-12 col-md-6 col-lg-4" v-for="(tarifs, index) in tarifs" :key="index">
                 <div class="kmvv-card p-3 h-100">
                     <h5 class="card-title">{{ tarifs.nom }}</h5>
@@ -18,7 +22,7 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
 </template>
 

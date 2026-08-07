@@ -7,8 +7,7 @@
                 <div class="kmvv-card p-3 h-100">
                     <h5 class="card-title">{{ cours.nom }}</h5>
                     <p class="card-text">
-                        <strong>Jour :</strong> {{ cours.jour }}<br />
-                        <strong>Horaire :</strong> {{ cours.horaire }}<br />
+                        <strong>Jour et horaire :</strong> {{ cours.jour }}<br />
                         <strong>Lieu :</strong> {{ cours.lieu }}
                     </p>
                 </div>
@@ -21,28 +20,49 @@
 interface Cours {
     nom: string;
     jour: string;
-    horaire: string;
     lieu: string;
 }
 
 const planning: Cours[] = [
     {
-        nom: "Krav Maga Enfants / Ados",
-        jour: "Vendredi",
-        horaire: "18:15 - 19:15",
+        nom: "Krav Maga Enfants (de 7 à 11 ans)",
+        jour: "Lundi de 18:00 à 19:00 \nET \nMercredi de 17:30 à 18:30",
+        lieu: "Gymnase de Noyarey",
+    },
+    {
+        nom: "Krav Maga Ados (de 12 à 15 ans)",
+        jour: "Lundi de 19:00 à 20:00 \nET \nMercredi de 18:30 à 19:30",
         lieu: "Gymnase de Noyarey",
     },
     {
         nom: "Krav Maga Débutants",
-        jour: "Lundi",
-        horaire: "20:45 - 21:45",
+        jour: "Lundi de 20:45 à 21:45",
         lieu: "Dojo Veurey-Voroize",
     },
     {
         nom: "Krav Maga Intermédiaires/confirmés",
-        jour: "Mercredi",
-        horaire: "20:15 - 21:45",
+        jour: "Mercredi de 20:15 à 21:45",
         lieu: "Dojo Veurey-Voroize",
+    },
+    {
+        nom: "Krav Maga confirmés intensif (extra mensuel)",
+        jour: "Vendredi de 18:00 à 19:30",
+        lieu: "Gymnase de Noyarey",
+    },
+    {
+        nom: "Boxe",
+        jour: "Mardi de 18:00 à 19:00",
+        lieu: "Gymnase de Noyarey",
+    },
+    {
+        nom: "Krav'Fit (à partir de 16 ans)",
+        jour: "Mardi de 19:00 à 20:00",
+        lieu: "Gymnase de Noyarey",
+    },
+    {
+        nom: "Renfo musculaire",
+        jour: "Mardi de 20:00 à 21:00",
+        lieu: "Gymnase de Noyarey",
     },
 ];
 </script>
