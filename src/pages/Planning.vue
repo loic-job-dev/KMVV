@@ -2,6 +2,10 @@
     <section class="container py-5">
         <h1 class="mb-4">Planning des cours</h1>
 
+        <p class="kmvv-info text-center mt-4 mb-5">
+            Planning au format PDF disponible à la page "S'inscrire".
+        </p>
+
         <div class="row g-4">
             <div class="col-12 col-md-6 col-lg-4" v-for="(cours, index) in planning" :key="index">
                 <div class="kmvv-card p-3 h-100">

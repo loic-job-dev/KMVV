@@ -14,7 +14,7 @@
                     Télécharger le PDF
                 </a>
             </p>
-            <!-- <h2>Pour les mineurs :</h2>
+            <h2>Pour les mineurs :</h2>
             <p>
                 Le questionnaire QS sport ici :
                 <a href="/PDF/questionnaire_medical_mineur.pdf" target="_blank" class="btn btn-primary">
@@ -39,7 +39,7 @@
                 <a href="/PDF/attestation_QS_sport_majeurs.pdf" target="_blank" class="btn btn-primary">
                     Télécharger le PDF
                 </a>
-            </p> -->
+            </p>
         </div>
     </section>
 </template>

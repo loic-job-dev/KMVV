@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg kmvv-navbar">
         <div class="container">
-            <RouterLink to="/" class="navbar-brand fw-bold">KMVV</RouterLink>
+            <RouterLink to="/" class="navbar-brand fw-bold">KMVN</RouterLink>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
                 aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
