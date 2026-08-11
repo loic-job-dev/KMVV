@@ -9,7 +9,7 @@ const tarifs: Tarifs[] = [
     {
         nom: "Enfants / Ados",
         annuel: "260 euros pour l'année, avec 1 t-shirt",
-        récurrence: "1 cours par semaine\n2 cours d'essai gratuits !",
+        récurrence: "2 cours par semaine\n2 cours d'essai gratuits !",
     },
     {
         nom: "Pack 1 activité",
