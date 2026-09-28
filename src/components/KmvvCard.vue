@@ -97,7 +97,7 @@ const formattedDate = computed(() => {
 
 /* Zone image : PLUS HAUTE + fond sombre */
 .kmvv-card-media {
-    height: 420px;
+    height: 720px;
     /* ⬅️ hauteur confortable */
     background-color: #050b2c;
     /* fond sombre élégant */
