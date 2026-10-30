@@ -18,7 +18,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { name: title, label: Titre, widget: string }
-      - { name: date, label: Date, widget: datetime }
+      - { name: date, label: Date, widget: date }
       - { name: text, label: Texte, widget: text }
       - { name: images, label: Images, widget: list, required: false, field: { name: image, widget: image } }
       - { name: video, label: Vidéo, widget: string, required: false }
